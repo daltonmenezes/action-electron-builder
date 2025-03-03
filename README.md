@@ -95,7 +95,7 @@ Add the following options to your workflow's existing `action-electron-builder` 
 
 ```yml
 - name: Build/release Electron app
-  uses: DarkGuy10/action-electron-builder@v1
+  uses: daltonmenezes/action-electron-builder@v1
   with:
     # ...
     mac_certs: ${{ secrets.mac_certs }}
@@ -145,7 +145,7 @@ If you've configured `electron-builder` to notarize your Electron Mac app [as de
 
     ```yml
     - name: Build/release Electron app
-      uses: DarkGuy10/action-electron-builder@v1
+      uses: daltonmenezes/action-electron-builder@v1
       with:
         # ...
       env:
