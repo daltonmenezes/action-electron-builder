@@ -2,7 +2,7 @@ export const pmCommands = {
 	npm: {
 		install: 'npm install',
 		build: (buildScriptName: string) =>
-			`npm run ${buildScriptName} --if-present`,
+			`npm run ${buildScriptName}`,
 		prefix: 'npx --no-install',
 	},
 	yarn: {
@@ -13,7 +13,7 @@ export const pmCommands = {
 	pnpm: {
 		install: 'pnpm install',
 		build: (buildScriptName: string) =>
-			`pnpm run ${buildScriptName} --if-present`,
+			`pnpm run ${buildScriptName}`,
 		prefix: 'pnpm exec',
 	},
 }
