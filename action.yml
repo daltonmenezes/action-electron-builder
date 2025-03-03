@@ -1,4 +1,4 @@
-name: Electron Builder Github Action
+name: An Electron Builder Github Action
 author: daltonmenezes
 description: GitHub Action for building and releasing Electron apps
 
