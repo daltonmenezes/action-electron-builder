@@ -1,5 +1,5 @@
 name: Electron Builder Github Action
-author: DarkGuy10
+author: daltonmenezes
 description: GitHub Action for building and releasing Electron apps
 
 inputs:
