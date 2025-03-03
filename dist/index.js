@@ -26118,7 +26118,7 @@ exports.pmCommands = void 0;
 exports.pmCommands = {
     npm: {
         install: 'npm install',
-        build: (buildScriptName) => `npm run ${buildScriptName} --if-present`,
+        build: (buildScriptName) => `npm run ${buildScriptName}`,
         prefix: 'npx --no-install',
     },
     yarn: {
@@ -26128,7 +26128,7 @@ exports.pmCommands = {
     },
     pnpm: {
         install: 'pnpm install',
-        build: (buildScriptName) => `pnpm run ${buildScriptName} --if-present`,
+        build: (buildScriptName) => `pnpm run ${buildScriptName}`,
         prefix: 'pnpm exec',
     },
 };
